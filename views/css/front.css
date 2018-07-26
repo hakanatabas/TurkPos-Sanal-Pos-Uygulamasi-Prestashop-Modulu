@@ -1,0 +1,275 @@
+/* This CSS file will be included in the frontoffice */
+
+.tpp-payment {
+
+}
+
+.tpp-payment .container {
+}
+
+.tpp-payment .selector {
+    display: inline-block;
+}
+.tpp-payment .panel.panel-default {
+    border-color: #ddd;
+}
+
+.tpp-payment .panel {
+    margin-bottom: 18px;
+    background-color: #fff;
+    border: none !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.tpp-payment .panel-default > .panel-heading {
+    border: 1px solid #d7d8d8;
+}
+
+.tpp-payment .form-inline .form-control {
+    display: inline-block;
+}
+
+.tpp-payment .card-wrap {
+}
+
+.tpp-payment .card-wrap .credit-cart-front-inner {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    min-height: 240px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #d7d8d8;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 11px 38px -9px rgba(215, 216, 216, 1);
+    -moz-box-shadow: 1px 11px 38px -9px rgba(215, 216, 216, 1);
+    box-shadow: 1px 11px 38px -9px rgba(215, 216, 216, 1);
+}
+
+.tpp-payment .card-wrap .credit-cart-front-inner:before {
+    content: '';
+    background-image: url(../img/chip.jpg);
+    width: 53px;
+    height: 46px;
+    display: block;
+    position: absolute;
+    left: 15px;
+    top: 52px;
+}
+
+.tpp-payment .card-wrap .credit-cart-front-inner:after {
+    content: '';
+    background-image: url(../img/cards.jpg);
+    width: 45px;
+    height: 60px;
+    display: block;
+    position: absolute;
+    right: 15px;
+    top: 115px;
+}
+
+
+
+.tpp-payment .credit-cart-info-front {
+    padding: 5px 0px 0px 15px;
+    color: #6A6866;
+    font-size: 11px;
+    text-align: center;
+    margin: 0px 15px 5px 15px;
+}
+
+.tpp-payment .credit-cart-info-front p {
+    font-size: 11px !important;
+}
+
+.tpp-payment .card-wrap p {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 12px;
+    font-weight: 600;
+}
+
+.tpp-payment .form-inline label {
+    font-size: 11px;
+    margin: 0px !important;
+}
+
+.tpp-payment .form-inline .form-control {
+    padding: 0px 3px !important;
+    height: 22px !important;
+}
+
+.tpp-payment .card-wrap .card-no-wrap {
+    text-align: left;
+    padding: 8px 5px 0px 30px;
+    margin: 0px 5px 0px 15px;
+}
+
+.tpp-payment .card-wrap .card-no-wrap .form-control.card-no {
+    width: 45px;
+}
+
+.tpp-payment .card-wrap .card-date-wrap {
+    padding: 0px 10px 5px 40px;
+    margin: 0px 5px 0px 35px;
+}
+
+.tpp-payment .card-wrap .card-date-wrap .form-control.card-month {
+    width: 60px;
+}
+
+.tpp-payment .card-wrap .card-date-wrap .form-control.card-year {
+    width: 80px;
+}
+
+.tpp-payment .card-wrap .card-type-wrap {
+    padding: 0px 10px 5px 40px;
+    margin: 5px 5px 0px 35px;
+}
+
+.tpp-payment .card-wrap .card-type-wrap .form-control.card-type {
+    width: 125px;
+}
+
+.tpp-payment .card-wrap .card-info-wrap {
+    padding: 0px 10px 5px 40px;
+    margin: 0px 5px 0px 35px;
+}
+
+.tpp-payment .card-wrap .card-info-wrap .form-control.card-holder-name {
+    width: 60%;
+}
+
+.tpp-payment .credit-cart-back-inner {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    height: 240px;
+    width: 100%;
+    position: relative;
+    border: 1px solid #d7d8d8;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 11px 38px -9px rgba(215, 216, 216, 1);
+    -moz-box-shadow: 1px 11px 38px -9px rgba(215, 216, 216, 1);
+    box-shadow: 1px 11px 38px -9px rgba(215, 216, 216, 1);
+}
+
+.tpp-payment .credit-cart-info-back {
+    height: 51px;
+    margin: 30px 0px 0px 0px;
+    margin-bottom: 30px;
+    background: #d7d8d8;,
+}
+
+.tpp-payment .card-wrap .card-info-wrap .form-control.card-holder-name {
+    width: 60%;
+}
+
+.tpp-payment .card-back-info-wrap p {
+    font-size: 11px !important;
+}
+
+.tpp-payment .card-wrap .card-back-wrap {
+    padding: 10px 10px 10px 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: solid 1px #ddd;
+}
+
+.tpp-payment .card-wrap .card-back-wrap .form-control.card-cv2-no {
+    width: 45px;
+}
+
+.tpp-payment .card-wrap .card-back-info-wrap {
+    color: #6A6866;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 30px 0px 30px;
+    font-size: 12px !important;
+}
+
+.tpp-payment .payment-summary {
+    margin: 0 auto;
+}
+
+.tpp-payment .payment-summary .item {
+    padding-top: 4px;
+    padding-bottom: 2px;
+    height: 22px;
+    border: none;
+}
+
+.tpp-payment .payment-summary .item bold {
+    font-weight: bold
+}
+
+.tpp-payment .payment-summary .item .name {
+    font-size: 11px;
+    width: 60%;
+    float: left;
+}
+
+.tpp-payment .payment-summary .item .value {
+    font-size: 11px;
+    width: 40%;
+    float: left;
+}
+
+.tpp-payment .payment-error p {
+    margin: 0 0 9px;
+}
+
+.tpp-payment .payment-suscess a.link-history {
+    font-size: 16px;
+    color: #000;
+}
+
+.tpp-payment .payment-suscess a.link-history i {
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .tpp-payment .card-wrap .credit-cart-front-inner, .tpp-payment .card-wrap .credit-cart-back-inner, .tpp-payment .card-wrap .payment-summary {
+        max-width: 320px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .tpp-payment .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .tpp-payment .panel .panel-body {
+        padding: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .tpp-payment .credit-cart-info-front {
+        margin: 0px 10px 5px 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .tpp-payment .card-wrap .card-date-wrap, .tpp-payment .card-wrap .card-type-wrap, .tpp-payment .card-wrap .card-info-wrap {
+        margin: 0px 5px 0px 45px;
+    }
+
+    .tpp-payment .card-wrap .card-no-wrap {
+        padding: 8px 5px 0px 40px
+    }
+    .tpp-payment .card-wrap .credit-cart-front-inner:after {
+        top: 100px;
+    }
+}
+
+
